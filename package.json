@@ -1,17 +1,27 @@
 {
+  "homepage": "http://aizadazh.github.io/fullswing",
   "name": "fullswing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/styles": "^4.5.0",
+    "gh-pages": "^2.1.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "reactstrap": "^8.0.1",
+    "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
