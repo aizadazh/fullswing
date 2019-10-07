@@ -7,8 +7,6 @@ import FacebookIcon from "../icons/FacebookIcon";
 import InstagramIcon from "../icons/InstagramIcon";
 import TelegramIcon from "../icons/TelegramIcon";
 
-
-
 class Footer extends Component {
     render() {
       return (
