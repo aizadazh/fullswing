@@ -15,7 +15,7 @@ const theme = createMuiTheme({
       contrastText: '#000',
     },
   },
-  spacing: `1em`
+  spacing: 4,
 });
 
 const colors = {
@@ -26,7 +26,7 @@ const colors = {
   light_blue: "#d0d0f5",
   dark_grey: "#1d2127",
   white: "#fefefe",
-  yellow: "#3f56b5",
+  blue: "#3f56b5",
   red: "#FA5562",
   black: "#0b0b0b",
   shadow1: "#d0d0f5",
